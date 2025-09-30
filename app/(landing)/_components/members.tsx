@@ -6,12 +6,12 @@ import { motion } from "framer-motion";
 
 const Members = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-10">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.1, type: "spring", stiffness: 100 }}
-        className="text-center mb-16"
+        className="text-center mb-10"
       >
         <div className="glass-morphism rounded-3xl p-6 inline-block backdrop-blur-xl">
           <h2 className="font-dmserif text-brown-700 text-5xl md:text-6xl text-center mb-10 mt-20">
@@ -20,7 +20,7 @@ const Members = () => {
         </div>
       </motion.div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0">
         {MEMBERS.map((member, index) => (
           <motion.div
             initial={{ opacity: 0, y: 30, scale: 0.9 }}
