@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KKN-Sidodadi",
-  description: "This is OUR Memory",
+  title: "Magangers Dahana",
+  description: "Ikatan Magangers Dahana",
 };
 
 export default function RootLayout({
