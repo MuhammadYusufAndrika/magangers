@@ -34,8 +34,8 @@ const MusicPlayer = () => {
           Welcome to
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3 }} className="uppercase font-dmserif text-brown-700 text-6xl text-center mb-5">
-          Magang Dahana 2025
+        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.3 }} className="uppercase font-dmserif text-brown-700 text-6xl text-center mb-5 text-bold">
+          Magang Dahaners
         </motion.div>
 
         {/* Gambar setelah teks */}
