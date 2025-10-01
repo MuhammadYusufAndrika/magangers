@@ -69,7 +69,7 @@ const Gallery = () => {
           filename: file,
         }));
 
-        const fallbackVideos = ["1a517b7e-bf1a-4a48-8e40-d70299203d55.mp4", "8e482303-5607-4d02-8a77-dab340260c5b.mp4", "f6cf6991-3192-49d9-a709-cad8aa20af55.mp4"].map((file) => ({
+        const fallbackVideos = ["1a517b7e-bf1a-4a48-8e40-d70299203d55.mp4", "8e482303-5607-4d02-8a77-dab340260c5b.mp4", "f6cf6991-3192-49d9-a709-cad8aa20af55.mp4", "e5375388-e425-4440-9fdf-6aee46f2f83d.mp4" , "5ffcf72a-6570-466d-b8ac-7b26d5cd6c4d.mp4"].map((file) => ({
           src: `/images/gallery/${file}`,
           filename: file,
         }));
