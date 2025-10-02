@@ -69,7 +69,13 @@ const Gallery = () => {
           filename: file,
         }));
 
-        const fallbackVideos = ["1a517b7e-bf1a-4a48-8e40-d70299203d55.mp4", "8e482303-5607-4d02-8a77-dab340260c5b.mp4", "f6cf6991-3192-49d9-a709-cad8aa20af55.mp4", "e5375388-e425-4440-9fdf-6aee46f2f83d.mp4" , "5ffcf72a-6570-466d-b8ac-7b26d5cd6c4d.mp4"].map((file) => ({
+        const fallbackVideos = [
+          "1a517b7e-bf1a-4a48-8e40-d70299203d55.mp4",
+          "8e482303-5607-4d02-8a77-dab340260c5b.mp4",
+          "f6cf6991-3192-49d9-a709-cad8aa20af55.mp4",
+          "e5375388-e425-4440-9fdf-6aee46f2f83d.mp4",
+          "5ffcf72a-6570-466d-b8ac-7b26d5cd6c4d.mp4",
+        ].map((file) => ({
           src: `/images/gallery/${file}`,
           filename: file,
         }));
@@ -113,25 +119,6 @@ const Gallery = () => {
           <ImageGallery items={galleryData.images} showThumbnails={true} showFullscreenButton={true} showPlayButton={false} autoPlay={false} slideInterval={3000} thumbnailPosition="bottom" />
         </div>
       </motion.div>
-
-      {/* Video Section */}
-      {galleryData.videos.length > 0 && (
-        <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.7, type: "spring", stiffness: 100 }} className="mt-16">
-          <div className="glass-morphism rounded-3xl p-6 backdrop-blur-xl">
-            <h3 className="font-space font-bold text-brown-700 text-3xl md:text-4xl text-center mb-8">Video Memories</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {galleryData.videos.map((video: VideoItem, index: number) => (
-                <motion.div key={index} initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, delay: index * 0.1 }} className="relative overflow-hidden rounded-2xl group">
-                  <video className="w-full h-auto rounded-2xl hover:scale-105 transition-transform duration-500" controls preload="metadata">
-                    <source src={video.src} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </motion.div>
-      )}
     </div>
   );
 };
