@@ -19,18 +19,18 @@ const Notes = () => {
       message: "Makasih yaa udah mau jadi temen aku di subang dan bandung, walaupun kita se instansi tapi seneng banget kenal deket sm kalian semoga temanannya awet xixixi, makasih udah mau dengerin yapping akuu, sukses yaa sidang nyaa kita usahakan letda ituu",
       role: "Quality Assurance"
     },
-    // {
-    //   id: 2,
-    //   name: "Dhony Irmaniansyah",
-    //   message: "Tim yang luar biasa! Setiap hari adalah pembelajaran baru dan pengalaman yang tak terlupakan di Dahana.",
-    //   role: "Operasional Produksi"
-    // },
-    // {
-    //   id: 3,
-    //   name: "Ikhtafia Harnum Aditya",
-    //   message: "Magang di sini memberikan wawasan mendalam tentang pengembangan produk dan energi material yang inovatif.",
-    //   role: "Pengembangan Produk & Energic Material"
-    // },
+    {
+      id: 2,
+      name: "Fahrizil Fauzi",
+      message: "-",
+      role: "K3LH"
+    },
+    {
+      id: 3,
+      name: "Ikhtafia Harnum Aditya",
+      message: "-",
+      role: "Pengembangan Produk & Energic Material"
+    }
     // {
     //   id: 4,
     //   name: "Nabila Desy Rahmawati",
