@@ -17,26 +17,32 @@ const Notes = () => {
       id: 1,
       name: "Latisa Cantik",
       message: "Makasih yaa udah mau jadi temen aku di subang dan bandung, walaupun kita se instansi tapi seneng banget kenal deket sm kalian semoga temanannya awet xixixi, makasih udah mau dengerin yapping akuu, sukses yaa sidang nyaa kita usahakan letda ituu",
-      role: "Quality Assurance"
+      role: "Pengendalian Kualitas"
     },
     {
       id: 2,
       name: "tfaaa",
       message: "Hai Nabila, Joel, Haniel, terima kasih ya untuk semua momen seru, cerita random, jokes jokes recehnya yang membersamai kita semua selama ini, so sad kenal kalian baru sebentar, tapi bener-bener happyyy banget yeheep, its been such a beautiful journey having you around, di tengah tengah ke hectic an magang humas yang rada bikin stress ini, each of u brought so much happiness that felt truly irreplaceable anjaaaay we're going to miss you a lot, good luck for the next chapter and dont be strangers ya! see you again, somewhere, sometime, gasss infokan nongki di bogor brooo",
       role: "Humas"
+    },
+    {
+      id: 3,
+      name: "Dina Amalina",
+      message: "haiii gaiss, makasii banyakkk yaa buat kalian semua yang udah mau nemenin, ngasih warna, dan bikin hari-hari magang aku jadi lebih seruuu walaupun cuman bentar ajaa huhu, semuaya bakal jadi kenanagan yang susah buat dilupain. bersyukur bgt bisa kenal sama kalian yg super duper baikk, semogaa abis ini kita semua bisa sukses di jalan masing-masing yaa, Aamiin. kalo ada waktuu semoga kita bisa ketemu lagii dengan cerita baru yang lebih seruu.makasii udh jdi bagian kecil tapi berarti bgt di perjalanan akuu. see u on top yaa gaiss, kita ketemu lagi di level yang lebih tinggi",
+      role: "Sistem Teknologi Informasi"
+    },
+    {
+      id: 4,
+      name: "Fahriz",
+      message: "Jangan Lupa Barak No 12. Salam Rumah Tangga",
+      role: "K3LH"
+    },
+    {
+      id: 5,
+      name: "Yusufandrika",
+      message: "Thankyou bro bro buat 2 minggu nya, walau baru disini tapi kalian sangat welcome. Salam Rumah Tangga",
+      role: "System Analyst"
     }
-    // {
-    //   id: 3,
-    //   name: "Ikhtafia Harnum Aditya",
-    //   message: "-",
-    //   role: "Pengembangan Produk & Energic Material"
-    // }
-    // {
-    //   id: 4,
-    //   name: "Nabila Desy Rahmawati",
-    //   message: "Pengalaman yang membanggakan bisa berkontribusi dalam proyek-proyek penting bersama tim Dahana.",
-    //   role: "Pengembangan Produk & Energic Material"
-    // }
   ];
 
   // Auto slide disabled
