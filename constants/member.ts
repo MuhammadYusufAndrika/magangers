@@ -15,6 +15,6 @@ export const MEMBERS = [
   { images: "/images/members/14.png", name: "Muhammad Yusuf Andrika", position: "System Analyst" },
   { images: "/images/members/15.png", name: "Isaura Qinthara Heriswan", position: "Sistem Teknologi Informasi" },
   { images: "/images/members/16.png", name: "Muhammad Trisna Putra Pratama", position: "Pengembangan Produk & Energic Material" },
-  { images: "/images/members/17.png", name: "Cornelius Abram Galia Joymaynard Purba", position: "Pengembangan Produk & Energic Material" },
+  { images: "/images/members/17.png", name: "Cornelius Abram Galia JP", position: "Pengembangan Produk & Energic Material" },
   { images: "/images/members/18.png", name: "M. Adrian Rezki Anggara MS", position: "Pengendalian Kualitas" },
 ];
