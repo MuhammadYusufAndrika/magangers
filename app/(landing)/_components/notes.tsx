@@ -39,16 +39,16 @@ const Notes = () => {
     // }
   ];
 
-  // Auto slide every 5 seconds
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentNoteIndex((prevIndex) => 
-        prevIndex === notes.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 5000);
+  // Auto slide disabled
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setCurrentNoteIndex((prevIndex) => 
+  //       prevIndex === notes.length - 1 ? 0 : prevIndex + 1
+  //     );
+  //   }, 5000);
 
-    return () => clearInterval(timer);
-  }, [notes.length]);
+  //   return () => clearInterval(timer);
+  // }, [notes.length]);
 
   const goToNote = (index: number) => {
     setCurrentNoteIndex(index);
