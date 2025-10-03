@@ -21,16 +21,16 @@ const Notes = () => {
     },
     {
       id: 2,
-      name: "Fahrizil Fauzi",
-      message: "-",
-      role: "K3LH"
-    },
-    {
-      id: 3,
-      name: "Ikhtafia Harnum Aditya",
-      message: "-",
-      role: "Pengembangan Produk & Energic Material"
+      name: "tfaaa",
+      message: "Hai Nabila, Joel, Haniel, terima kasih ya untuk semua momen seru, cerita random, jokes jokes recehnya yang membersamai kita semua selama ini, so sad kenal kalian baru sebentar, tapi bener-bener happyyy banget yeheep, its been such a beautiful journey having you around, di tengah tengah ke hectic an magang humas yang rada bikin stress ini, each of u brought so much happiness that felt truly irreplaceable anjaaaay we're going to miss you a lot, good luck for the next chapter and dont be strangers ya! see you again, somewhere, sometime, gasss infokan nongki di bogor brooo",
+      role: "Humas"
     }
+    // {
+    //   id: 3,
+    //   name: "Ikhtafia Harnum Aditya",
+    //   message: "-",
+    //   role: "Pengembangan Produk & Energic Material"
+    // }
     // {
     //   id: 4,
     //   name: "Nabila Desy Rahmawati",
@@ -113,7 +113,7 @@ const Notes = () => {
               transition={{ duration: 0.5 }}
               className="text-center max-w-4xl"
             >
-              <div className="mb-6">
+              <div className="mb-6 text-brown-700">
                 <p className="text-lg md:text-xl text-brown-600 leading-relaxed italic font-medium mb-4">
                   &quot;{notes[currentNoteIndex].message}&quot;
                 </p>
