@@ -28,7 +28,19 @@ export async function GET() {
         original: `/images/gallery/${file}`,
         thumbnail: `/images/gallery/${file}`,
         filename: file,
-      }));
+      }))
+      .sort((a, b) => {
+        // Custom sorting for proper image order
+        const getNumericPart = (filename: string) => {
+          const match = filename.match(/IMG_(\d+)/);
+          return match ? parseInt(match[1]) : 0;
+        };
+
+        const aNum = getNumericPart(a.filename);
+        const bNum = getNumericPart(b.filename);
+
+        return aNum - bNum;
+      });
 
     const videos = allFiles
       .filter((file) => {
