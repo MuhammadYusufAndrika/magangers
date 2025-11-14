@@ -39,6 +39,7 @@ const VideoGallery = () => {
           "f6cf6991-3192-49d9-a709-cad8aa20af55.mp4",
           "e5375388-e425-4440-9fdf-6aee46f2f83d.mp4",
           "5ffcf72a-6570-466d-b8ac-7b26d5cd6c4d.mp4",
+          "ultahdita.mp4",
         ].map((file) => ({
           src: `/images/gallery/${file}`,
           filename: file,
